@@ -1,0 +1,26 @@
+{
+  "semi": true,
+  "arrowParens": "avoid",
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "proseWrap": "always",
+  "printWidth": 80,
+  "plugins": [
+    "@ianvs/prettier-plugin-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "importOrder": [
+    "^react(/.*)?$",
+    "^next(/.*)?$",
+    "<THIRD_PARTY_MODULES>",
+    "^@uploadthing(/.*)?$",
+    "^uploadthing(/.*)?$",
+    "^~(/.*)?$",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderTypeScriptVersion": "5.0.0",
+  "importOrderSeparation": true
+}
