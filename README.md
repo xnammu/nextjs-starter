@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) Starter made by
+This is a [Next.js](https://github.com/xnammu/nextjs-starter) Starter made by
 [`Navneet Singh`](https://github.com/xnammu).
 
 ## How to start:
